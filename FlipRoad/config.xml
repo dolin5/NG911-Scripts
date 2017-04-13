@@ -1,0 +1,12 @@
+<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Name>FlipRoad</Name><AddInID>{c5c08e42-6a7e-4621-9e56-dde26b9d7925}</AddInID><Description>Flip Roads</Description><Version>1.0</Version><Image>Images\LineFlip.png</Image><Author>Dylan Olin</Author><Company>Gallatin County GIS</Company><Date>07/13/2016</Date><Targets><Target name="Desktop" version="10.1" /></Targets><AddIn language="PYTHON" library="FlipRoad_addin.py" namespace="FlipRoad_addin"><ArcMap>
+    <Commands>
+        <Tool caption="FlipRoad" category="FlipRoad" class="ToolClass4" id="FlipRoad_addin.tool" image="Images\LineFlip.png" message="" tip="Flips roads and switches ranges"><Help heading="" /></Tool>
+        </Commands>
+    <Extensions>
+        </Extensions>
+    <Toolbars>
+        <Toolbar caption="RoadEdits" category="FlipRoad" id="FlipRoad_addin.toolbar" showInitially="true"><Items><Tool refID="FlipRoad_addin.tool" /></Items></Toolbar>
+        </Toolbars>
+    <Menus>
+        </Menus>
+    </ArcMap></AddIn></ESRI.Configuration>
